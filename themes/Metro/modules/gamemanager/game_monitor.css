@@ -1,35 +1,43 @@
 .monitorbutton{
-	display:inline;
-	width:auto !important;
-}
-.monitorbutton tr td{
-	cursor:pointer;
+	display: inline-block;
+	cursor: pointer;
 	color: #323232;
-	background-color:#F0F0F6;
 	transition: background-color 0.5s;
 	-webkit-transition: background-color 0.5s;
-	border: 1px solid grey;
-	width:145px !important;
-	height:72px !important;
-	background-color: #D7EDF3 !important;
-	vertical-align: middle !important;
+	outline: 1px solid grey;
+	width: 48%;
+	height: 90px;
+	background-color: #D7EDF3;
+	vertical-align: middle;
+	text-align: center;
+	margin-bottom: 2%;
+	margin-left: 1%;
+	margin-right: 1%;
+	max-width: 175px;
+	float:left;
 }
-.monitorbutton tr td:hover {
-	background-color:#379bb9 !important;
+
+.monitorbutton.sizeText{
+	line-height: 90px;
+}
+
+.monitorbutton:hover {
+	background-color:#379bb9;
 	transition: background-color 0.5s;
 	-webkit-transition: background-color 0.5s;
 	cursor:pointer;
-}
-.monitorbutton tr td a:hover {
 	text-decoration:none;
 }
 
-.ts3-del-virtual.center {
-	display:none;
+.monitorbutton > img {
+	height: 50px;
+	margin: 5px 0px;
 }
 
-.ts3-add-virtual.center{
-	display:none; 
+.monitorbutton > span {
+	display: block;
+	font-weight: bold;
+	color: #000;
 }
 
 button:active, button[type="submit"]:active, input[type="submit"]:active, .monitorbutton tr td:active {
@@ -37,6 +45,7 @@ button:active, button[type="submit"]:active, input[type="submit"]:active, .monit
 	transition: background-color 0.25s;
 	-webkit-transition: background-color 0.25s;
 }
+
 #server_icon{
 	display:block;
 	float:left;
