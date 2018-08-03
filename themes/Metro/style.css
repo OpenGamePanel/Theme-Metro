@@ -124,10 +124,7 @@ body {
 
 .main-content {
 	background:#FFF;
-	overflow:auto;
-	padding-right:1%;
-	padding-bottom:1%;
-	padding-left:1%;
+	overflow:hidden;
 }
 
 tr.maintr.odd{
