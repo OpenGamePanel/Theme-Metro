@@ -124,7 +124,7 @@ body {
 
 .main-content {
 	background:#FFF;
-	overflow:hidden;
+	overflow-x: hidden;
 }
 
 tr.maintr.odd{
@@ -806,7 +806,8 @@ pre {
    border-top: 5px #000000 solid;
    border-bottom: 5px #000000 solid;
    word-wrap: &hairsp;/&#8202;
-   overflow: auto;
+   width: 80vw;
+   overflow-x: scroll;
 }
 
 .log {
